@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: purple;
+    height: 100vh;
+
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: url("TiledBackdrop3.png");
+    background-size: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#othercont {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+#backdrop {
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+}
+
+#thetext {
+    position: relative;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    left:1px;
+    top: 0px;
+    filter: saturate(100%);
+}
